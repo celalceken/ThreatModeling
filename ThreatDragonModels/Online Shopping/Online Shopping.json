@@ -1069,14 +1069,23 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 470,
-                "y": 36
+                "x": 402,
+                "y": 14
               },
               "target": {
                 "x": 161,
                 "y": 425
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 360,
+                  "y": 220
+                },
+                {
+                  "x": 282,
+                  "y": 313
+                }
+              ],
               "id": "60be7501-007c-4ea0-a89f-d15dd9e44273",
               "labels": [
                 {
@@ -1198,8 +1207,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.843269955250027,
-                    "offset": 136.47952690037235
+                    "distance": 1,
+                    "offset": 27.125509816500145
                   },
                   "attrs": {
                     "text": {
@@ -1229,8 +1238,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.843269955250027,
-                    "offset": 136.47952690037235
+                    "distance": 1,
+                    "offset": -55
                   },
                   "attrs": {
                     "text": {
