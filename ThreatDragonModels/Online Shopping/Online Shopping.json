@@ -371,6 +371,21 @@
                 }
               ],
               "id": "6acd143f-6602-4a0e-9973-2b03ae0cf6c3",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.7161740952155794,
+                    "offset": -14.918541485329028
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "internet2DMZ",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
               "z": 16,
               "attrs": {}
             },
