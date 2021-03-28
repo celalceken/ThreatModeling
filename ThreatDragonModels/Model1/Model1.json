@@ -6,13 +6,7 @@
   },
   "detail": {
     "contributors": [],
-    "diagrams": [
-      {
-        "title": "Diagram1",
-        "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
-      }
-    ],
+    "diagrams": [],
     "reviewer": "reviewer"
   }
 }
