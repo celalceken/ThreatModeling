@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "title": "Model2",
+    "owner": "cc"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "dfd1",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
