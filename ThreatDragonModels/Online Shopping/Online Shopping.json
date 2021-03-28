@@ -450,6 +450,11 @@
           "height": 3194.237060546875,
           "width": 814.9314575195312
         }
+      },
+      {
+        "title": "Context Level DFD",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
       }
     ]
   }
