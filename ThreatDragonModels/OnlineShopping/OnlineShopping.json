@@ -8,7 +8,7 @@
     "contributors": [],
     "diagrams": [
       {
-        "title": "Context Level DFD",
+        "title": "Level 0 DFD",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0,
         "diagramJson": {
