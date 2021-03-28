@@ -161,13 +161,13 @@
               "angle": 0,
               "id": "2db73203-9b39-4864-a6d3-4a9ed0b9c5af",
               "z": 3,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
                   "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
                   "title": "Generic spoofing threat",
                   "type": "Spoofing",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "description": "A generic spoofing threat"
                 },
@@ -175,20 +175,20 @@
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
                   "title": "Generic repudiation threat",
                   "type": "Repudiation",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "description": "A generic repudiation threat"
                 }
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "user"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -203,6 +203,22 @@
                 "y": 253
               },
               "vertices": [
+                {
+                  "x": 240,
+                  "y": 160
+                },
+                {
+                  "x": 250,
+                  "y": 170
+                },
+                {
+                  "x": 260,
+                  "y": 180
+                },
+                {
+                  "x": 270,
+                  "y": 190
+                },
                 {
                   "x": 348,
                   "y": 260
@@ -246,6 +262,10 @@
                 "id": "2db73203-9b39-4864-a6d3-4a9ed0b9c5af"
               },
               "vertices": [
+                {
+                  "x": 440,
+                  "y": 120
+                },
                 {
                   "x": 405,
                   "y": 97
@@ -390,6 +410,10 @@
                   "y": 145
                 },
                 {
+                  "x": 390,
+                  "y": 100
+                },
+                {
                   "x": 430,
                   "y": 70
                 }
@@ -409,7 +433,12 @@
                 "x": 481,
                 "y": 476
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 770,
+                  "y": 220
+                }
+              ],
               "id": "b84596f7-16e8-4caf-b98b-be304a102449",
               "z": 11,
               "attrs": {}
