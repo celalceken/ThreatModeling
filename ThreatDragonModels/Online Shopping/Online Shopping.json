@@ -1728,8 +1728,8 @@
                 "height": 80
               },
               "position": {
-                "x": 189,
-                "y": 431
+                "x": 183,
+                "y": 453
               },
               "angle": 0,
               "id": "fb66fef3-cec4-496c-824d-aff4501eda5a",
@@ -1876,12 +1876,12 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.17180406412670998,
-                    "offset": 26.223121229960586
+                    "distance": 0.10919497216521941,
+                    "offset": 54.03443597118271
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 9",
+                      "text": "Application call",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1918,12 +1918,12 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.7814606625165003,
-                    "offset": 22.966912630356994
+                    "distance": 0.5044383202848212,
+                    "offset": 22.582469670767306
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 10",
+                      "text": "Application response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1978,7 +1978,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 14",
+                      "text": "rest response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2020,7 +2020,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 15",
+                      "text": "rest request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2125,7 +2125,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 17",
+                      "text": "SQL calls",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2167,7 +2167,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 18",
+                      "text": "SQL response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2203,10 +2203,13 @@
               "id": "f430a058-ada7-424e-a5dd-e1be8f008619",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.45219134676529266,
+                    "offset": -15.014127201668117
+                  },
                   "attrs": {
                     "text": {
-                      "text": "flow 19",
+                      "text": "data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2243,12 +2246,12 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.5512121654157752,
-                    "offset": 62.25596662071626
+                    "distance": 0.5675871618197298,
+                    "offset": 14.598844646375406
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 20",
+                      "text": "data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2277,8 +2280,8 @@
               },
               "vertices": [
                 {
-                  "x": 291,
-                  "y": 358
+                  "x": 312,
+                  "y": 376
                 }
               ],
               "id": "ed061c10-ceac-4589-b40e-0db707d45d65",
@@ -2290,7 +2293,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 21",
+                      "text": "set",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2319,20 +2322,20 @@
               },
               "vertices": [
                 {
-                  "x": 366,
-                  "y": 412
+                  "x": 351,
+                  "y": 416
                 }
               ],
               "id": "a4a5e0db-17d2-4fb2-9b1c-7b2a8f6009c8",
               "labels": [
                 {
                   "position": {
-                    "distance": 0.3876138203879733,
-                    "offset": -28.75398743968361
+                    "distance": 0.5180686387436818,
+                    "offset": 20.9428439867278
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 22",
+                      "text": "get",
                       "font-weight": "400",
                       "font-size": "small"
                     }
