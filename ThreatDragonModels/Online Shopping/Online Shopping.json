@@ -1195,6 +1195,21 @@
                 }
               ],
               "id": "8991e26d-6c51-4f7d-b1ce-22d07ff1c99b",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.843269955250027,
+                    "offset": 136.47952690037235
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "LAN",
+                      "font-weight": "600",
+                      "font-size": "large"
+                    }
+                  }
+                }
+              ],
               "z": 25,
               "attrs": {}
             },
@@ -1226,6 +1241,21 @@
               },
               "angle": 0,
               "id": "0e4a3d7d-bce2-47ca-8fd8-02da8f0573b0",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.843269955250027,
+                    "offset": 136.47952690037235
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Restricted Network",
+                      "font-weight": "600",
+                      "font-size": "large"
+                    }
+                  }
+                }
+              ],
               "z": 27,
               "hasOpenThreats": false,
               "attrs": {
