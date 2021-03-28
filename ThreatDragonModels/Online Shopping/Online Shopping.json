@@ -1226,6 +1226,21 @@
               },
               "vertices": [],
               "id": "77dc775c-6bb9-46f3-bc80-592681185b01",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.843269955250027,
+                    "offset": 136.47952690037235
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Restricted Network",
+                      "font-weight": "600",
+                      "font-size": "large"
+                    }
+                  }
+                }
+              ],
               "z": 26,
               "attrs": {}
             },
