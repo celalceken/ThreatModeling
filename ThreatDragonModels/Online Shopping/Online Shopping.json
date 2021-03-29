@@ -627,6 +627,112 @@
               "angle": 0,
               "id": "1f39fdd8-9ce1-4726-8a59-f58b2d11b0a3",
               "z": 1,
+              "hasOpenThreats": false,
+              "threats": [],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Web Server"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 731,
+                "y": 516
+              },
+              "angle": 0,
+              "id": "18a76e64-af3f-4dff-a6fa-bf21f7645a25",
+              "z": 2,
+              "hasOpenThreats": false,
+              "threats": [],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Relational DB"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 2,
+                "y": 17
+              },
+              "angle": 0,
+              "id": "2db73203-9b39-4864-a6d3-4a9ed0b9c5af",
+              "z": 3,
+              "hasOpenThreats": false,
+              "threats": [],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Users"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 253,
+                "y": 4
+              },
+              "target": {
+                "x": 45,
+                "y": 255
+              },
+              "vertices": [
+                {
+                  "x": 202,
+                  "y": 115
+                },
+                {
+                  "x": 110,
+                  "y": 186
+                }
+              ],
+              "id": "0f359468-feef-4986-8725-a5bdcbf0339d",
+              "z": 12,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 374,
+                "y": 248
+              },
+              "angle": 0,
+              "id": "973a7699-e6c7-4c69-9ee9-b1aa5df841ad",
+              "z": 13,
               "hasOpenThreats": true,
               "threats": [
                 {
@@ -683,165 +789,10 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Web Server"
-                },
-                ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 731,
-                "y": 516
-              },
-              "angle": 0,
-              "id": "18a76e64-af3f-4dff-a6fa-bf21f7645a25",
-              "z": 2,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "Generic tampering threat",
-                  "type": "Tampering",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic tampering threat"
-                },
-                {
-                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Generic repudiation threat",
-                  "type": "Repudiation",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic repudiation threat"
-                },
-                {
-                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
-                  "title": "Generic informtion disclosure threat",
-                  "type": "Information disclosure",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic information disclosure threat"
-                },
-                {
-                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
-                  "title": "Generic DoS threat",
-                  "type": "Denial of service",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic DoS threat"
-                }
-              ],
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Relational DB"
-                },
-                ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 2,
-                "y": 17
-              },
-              "angle": 0,
-              "id": "2db73203-9b39-4864-a6d3-4a9ed0b9c5af",
-              "z": 3,
-              "hasOpenThreats": false,
-              "threats": [
-                {
-                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
-                  "title": "Generic spoofing threat",
-                  "type": "Spoofing",
-                  "status": "Mitigated",
-                  "severity": "Medium",
-                  "description": "A generic spoofing threat"
-                },
-                {
-                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Generic repudiation threat",
-                  "type": "Repudiation",
-                  "status": "Mitigated",
-                  "severity": "Medium",
-                  "description": "A generic repudiation threat"
-                }
-              ],
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Users"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 253,
-                "y": 4
-              },
-              "target": {
-                "x": 45,
-                "y": 255
-              },
-              "vertices": [
-                {
-                  "x": 202,
-                  "y": 115
-                },
-                {
-                  "x": 110,
-                  "y": 186
-                }
-              ],
-              "id": "0f359468-feef-4986-8725-a5bdcbf0339d",
-              "z": 12,
-              "attrs": {}
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 374,
-                "y": 248
-              },
-              "angle": 0,
-              "id": "973a7699-e6c7-4c69-9ee9-b1aa5df841ad",
-              "z": 13,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
                   "text": "Application\nServer"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -1116,8 +1067,20 @@
               },
               "vertices": [
                 {
+                  "x": 482,
+                  "y": 182
+                },
+                {
+                  "x": 496,
+                  "y": 161
+                },
+                {
                   "x": 550,
                   "y": 107
+                },
+                {
+                  "x": 631,
+                  "y": 99
                 }
               ],
               "id": "19fd950d-6592-4f68-b3e5-f903d8458c00",
