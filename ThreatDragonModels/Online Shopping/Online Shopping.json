@@ -737,36 +737,21 @@
               "threats": [
                 {
                   "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
-                  "title": "SQL Injection",
+                  "title": "SQL Injection (Login function)",
                   "type": "Spoofing",
                   "status": "Open",
                   "severity": "High",
-                  "description": "SQL Injection",
-                  "mitigation": "All inputs must filtered"
-                },
-                {
-                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "Generic tampering threat",
-                  "type": "Tampering",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic tampering threat"
-                },
-                {
-                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Generic repudiation threat",
-                  "type": "Repudiation",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic repudiation threat"
+                  "description": "SQL Injection  in login function (Web Basics- AuthController->\"/login\")",
+                  "mitigation": "All inputs must be filtered"
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
-                  "title": "Generic informtion disclosure threat",
+                  "title": "Session Hijacking",
                   "type": "Information disclosure",
                   "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic information disclosure threat"
+                  "severity": "High",
+                  "description": "A generic information disclosure threat",
+                  "mitigation": "In addition, sets HTTPOnly:true HTTP header preventing cookies being accessed by scripts. The application used HTTPS secure connections, and cookies are configured to be sent only on Secure HTTPS connections by setting Secureflag.\n\nOn any successful authentication and reauthentication the software should generate a new session and session id.\nIn order to minimize the time period an attacker can launch attacks over active sessions and hijack them, it is mandatory to set expiration timeouts for every session, after a specified period of inactivity. The length of timeout should be inversely proportional with the value of the data protected.\nPlease see S​ession Management Cheat Sheet​further details"
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
@@ -783,6 +768,14 @@
                   "status": "Open",
                   "severity": "Medium",
                   "description": "A generic elevation threat"
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "SQL Injection (Search Function)",
+                  "type": "Spoofing",
+                  "mitigation": "All inputs must be filtered",
+                  "description": "SQL Injection  in search function (WebServiceRestController->search)"
                 }
               ],
               "attrs": {
