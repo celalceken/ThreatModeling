@@ -1238,16 +1238,26 @@
                 }
               ],
               "z": 27,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "title": "SQL injection (DB Driver)",
+                  "description": "SQL injection (DB Driver)",
+                  "mitigation": "Untrusted input should be prevented from being interpreted as part of a SQL command. T​he best way to do this is with the programming technique known as ‘Query Parameterization’. In this case, the SQL statements are sent to and parsed by the database server separately from any parameters."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Database\nOperations"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
